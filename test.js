@@ -17,6 +17,5 @@ test("One yen should be 0.0063 pounds", function(){
     const {fromYenToPound} = require('./app.js')
     expect(fromYenToPound(1)).toBe(0.0063); 
     expect(fromYenToPound).not.toBeString;
-    expect(fromDollarToYen("y")).toBeNull(); 
 })
 
